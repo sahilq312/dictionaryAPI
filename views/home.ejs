@@ -1,0 +1,13 @@
+<%- include( "./partials/header.ejs"); -%>
+<h1>Dictionary</h1>
+<form action="/" method="post">
+    <input type="text" name="word" id="">
+    <button><i class="fa-brands fa-searchengin"></i></button>
+</form>
+<div class="meaning">
+    <h2><%=WORD%></h2>
+    <h4><%= PHONETIC %></h4>
+    <spam class="defination"><%= MEANING %>/spam>
+</div>
+
+<%- include( "./partials/footer.ejs"); -%>
